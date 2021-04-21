@@ -1,0 +1,15 @@
+---
+application:
+  name: "hugo"
+  project: "name"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "NAME"
+  version: "10"
+routers:
+- name: "main-hugo"
+  routes:
+  - application_name: "hugo"
+    paths:
+    - "/*"
